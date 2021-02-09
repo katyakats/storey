@@ -46,3 +46,8 @@ Miscellaneous
 
 
 
+.. automodule:: storey.aggregations
+    :members:
+    :show-inheritance:
+
+
