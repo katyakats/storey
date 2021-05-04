@@ -263,7 +263,7 @@ class QueryByKey(AggregateByKey):
             self._terminate_worker = True
             return await self._do_downstream(_termination_obj)
 
-        element = event.body
+        element = event.body  
         key = event.key
         if self.key_extractor:
             key = self.key_extractor(element)
